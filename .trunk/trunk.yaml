@@ -1,6 +1,8 @@
 version: 0.1
 cli:
   version: 1.1.0
+merge:
+  required_statuses:  
 plugins:
   sources:
     - id: trunk
