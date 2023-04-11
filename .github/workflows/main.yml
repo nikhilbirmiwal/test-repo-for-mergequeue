@@ -1,14 +1,12 @@
-name: Upload Affected Targets
+name: PR Workflow
 on: pull_request
 
 jobs:
-  upload_affected_targets:
-    name: Upload Affected Targets
-    runs-on: self-hosted
+  hello-world:
+    name: Hello World
+    runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-
-      - name: Run Upload Affected Targets
-        uses: nikhilbirmiwal/hello-world-composite-action@v47 # TODO: Move this to a different repo.
+      - name: Run build script
+        run: echo "Hello World" 
+        shell: bash
