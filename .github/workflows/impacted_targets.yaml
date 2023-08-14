@@ -14,5 +14,3 @@ jobs:
         with:
           ### Use your repositories API token to authenticate impacted targets uploads.
           trunk-token: ${{ secrets.TRUNK_REPO_API_TOKEN }}
-        env:
-          API_URL: https://api.dev.trunk-staging.io:443/v1/setImpactedTargets
