@@ -1,1 +1,4 @@
-filegroup(name = "lib")
+filegroup(
+  name = "lib",
+  srcs = glob([*.txt]),
+)
