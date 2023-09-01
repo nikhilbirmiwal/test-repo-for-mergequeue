@@ -1,4 +1,4 @@
 filegroup(
   name = "lib",
-  srcs = glob([*.txt]),
+  srcs = ["foo.txt"],
 )
